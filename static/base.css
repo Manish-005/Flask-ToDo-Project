@@ -1,0 +1,106 @@
+/* Reset some default browser styles */
+body, h1, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color and center the content */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the header */
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Style the form container */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the input and button within the form */
+label {
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.button1 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Style table headers and data cells */
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th.thick {
+    font-weight: bold;
+}
+
+/* Style the label for task status */
+.label {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.label.pending {
+    background-color: #f00;
+    color: #fff;
+}
+
+.label.done {
+    background-color: #0c0;
+    color: #fff;
+}
+
+/* Style the update and delete buttons */
+.button2, .button3 {
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.button2 {
+    background-color: #333;
+}
+
+.button3 {
+    background-color: #f00;
+}
+
+/* Add some spacing */
+br {
+    margin-bottom: 10px;
+}
